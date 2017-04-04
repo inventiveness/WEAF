@@ -9,7 +9,7 @@ For any business entity of interest (SoI), requirement specification is the basi
 To answer to these challenges, a whole-enterprise architecture framework (WEAF) is proposed.  WEAF contains a unified enterprise model, an assurance ecosystem, and structured requirement specification to enforce coverage and traceability.
 
 Context is identified using enterprise dimensions to provide coverage of people, processes, resources, and change: business functions, system components, and service lifecycle.  Existing standards are aligned with the dimensions to support enterprise business practices in a modular fashion.  
-<img align=”right” src=”diagrams/business-dimensions.png”>
+<img align="right" src="diagrams/business-dimensions.png">
 
 The concept of an enterprise coordinate system is defined to realize a unified enterprise model.  This model is able to represent all business entities through their life history.
  
