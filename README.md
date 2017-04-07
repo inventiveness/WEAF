@@ -1,20 +1,35 @@
-This post discusses the current state of enterprise architecture (EA) and its challenges.  A framework is proposed to address the challenges and advance the state of EA.
+# WEAF - a Whole-Enterprise Architecture Framework
 
-An enterprise is a complex network of people, processes, and resources that change continuously.  The capabilities required to understand, operate, and control an enterprise are a complex intersection of expertise domains.  EA is a discipline to cope with the complexity by holistically representing an enterprise while addressing stakeholder concerns.  The end goal is effective and efficient utilization of enterprise resources to realize enterprise goals.  EA methods, artifacts, and domain specific reference architectures are being standardized, but there is no standard for a unified model of the whole enterprise.ISO14258
+This repository contains documentation for WEAF, a whole-enterprise architecture framework.
 
-Even with a unified enterprise model, assurance in the face of complexity is a key concern for realizing business outcomes.  Coverage and traceability of requirements have been identified as major challenges to providing assurance.  Assurance methods and artifacts are being standardized, but there is no standard for an assurance ecosystem that covers assurance across an enterprise and supports traceability footnote for OMG efforts.
+## Overview
 
-For any business entity of interest (SoI), requirement specification is the basis for defining assurance of SoI outcomes.  A requirement specification is the bridge connecting business objectives to concrete instances.  Requirement specification methods and artifacts are being standardized, but enforcing coverage and traceability is problematic without a common model of the enterprise.
+WEAF provides a standards-aligning unified enterprise model, an ecosystem covering business assurance concerns, and a requirement specification methodology which enforces traceability.
 
-To answer to these challenges, a whole-enterprise architecture framework (WEAF) is proposed.  WEAF contains a unified enterprise model, an assurance ecosystem, and structured requirement specification to enforce coverage and traceability.
-![](diagrams/weaf-in-one-pic.png)
+The framework is intended to advance the practice of enterprise architecture, business analysis, and software/system engineering.  
+* WEAF is an answer to the grand challenge of ubiquitous traceability<sup>[1](#1)</sup>.  
+* WEAF enables the “preferred path”<sup>[2](#2)</sup> for portability and interoperability.  
+* WEAF fulfills the need for an assurance ecosystem that addresses assurance across the enterprise and throughout the lifecycle.
+<sub><a name=”1”>Cleland-Huang, etal 2014 - *Software Traceability: Trends and Future Directions* </a>
+<sub><a name=”2”>*ISO 14258 - Concepts and rules for enterprise models* section 3.8 - Requirements for standards on model interoperability</a>
 
-Context is identified using enterprise dimensions to provide coverage of people, processes, resources, and change: business functions, system components, and service lifecycle. Existing standards are aligned with the dimensions to support enterprise business practices in a modular fashion.  
+A basic overview can be found in the [WEAF Overview](./WEAF-overview.pdf).  A sketch of construction and usage available in [WEAF-construction-and-usage.odp](./WEAF-construction-and-usage.odp).  A detailed summary that covers the essential components of WEAF is available in [WEAF Detailed Summary](./WEAF-detailed-summary.odp).
 
-The concept of an enterprise coordinate system is defined to realize a unified enterprise model.   This model is able to represent all business entities through their life history.
- 
-Representation viewpoints are derived via projections and restrictions of the dimensions.  Canonical projections along each dimension define assurance viewpoints for the model: function governance, system management, and service realization.  Business functions corresponding to the assurance viewpoints are used together with strategy to build an assurance ecosystem encompassing assurance concerns for any business entity.
-   
-The framework is completed with a requirement specification template and methodology.  These capture SoI attributes and requirements, support coverage of strategic and stakeholder concerns, and enable ubiquitous traceability.  From this common basis, automated exchange of requirements is possible.
-   
-Current standards cover modeling *for* an enterprise.  WEAF provides a unified model *of* the enterprise.
+## Repository Structure
+1. Framework
+    * Enterprise dimensions
+    * Enterprise model
+    * Viewpoints
+    * Assurance ecosystem
+    * Requirement specification
+1. Related Work
+1. Future Work
+1. Standards Compliance
+    * ISO 15704 - Requirements for enterprise-reference architectures and methodologies 
+    * ISO 19349 - Framework for enterprise modelling 
+    * ISO 42010 - Architecture description
+1. Standards Mapping
+1. Viewpoint Derivation
+1. Ontology
+1. Applications
+
