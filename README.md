@@ -35,3 +35,5 @@ A basic overview can be found in the [WEAF Overview](./WEAF-overview.pdf).  A sk
 1. Ontology
 1. Applications
 
+## Framework Structure
+![WEAF outline](./diagrams/weaf-in-one-pic.png)
