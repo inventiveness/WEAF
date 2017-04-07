@@ -8,7 +8,7 @@ WEAF provides a standards-aligning unified enterprise model, an ecosystem coveri
 
 The framework is intended to advance the practice of enterprise architecture, business analysis, and software/system engineering.  
 * WEAF is an answer to the grand challenge of ubiquitous traceability<sup>[1](#1)</sup>.  
-* WEAF enables the “preferred path”<sup>[2](#2)</sup> for portability and interoperability.  
+* WEAF enables the “preferred path”<sup>[2](#2)</sup> for enterprise model portability and interoperability.  
 * WEAF fulfills the need for an assurance ecosystem that addresses assurance across the enterprise and throughout the lifecycle.
 
 <sub><a name=”1”><sup>1</sup>Cleland-Huang, etal 2014 - *Software Traceability: Trends and Future Directions*</a>
