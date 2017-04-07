@@ -12,6 +12,7 @@ The framework is intended to advance the practice of enterprise architecture, bu
 * WEAF fulfills the need for an assurance ecosystem that addresses assurance across the enterprise and throughout the lifecycle.
 
 <sub><a name=”1”><sup>1</sup>Cleland-Huang, etal 2014 - *Software Traceability: Trends and Future Directions*</a>
+<BR />
 <a name=”2”><sup>2</sup>*ISO 14258 - Concepts and rules for enterprise models*, section 3.8 - Requirements for standards on model interoperability</a></sub>
 
 A basic overview can be found in the [WEAF Overview](./WEAF-overview.pdf).  A sketch of construction and usage is available in [WEAF-construction-and-usage.odp](./WEAF-construction-and-usage.odp).  A detailed summary that covers the essential components of WEAF is available in [WEAF Detailed Summary](./WEAF-detailed-summary.odp).
